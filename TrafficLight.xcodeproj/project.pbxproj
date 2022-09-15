@@ -11,14 +11,16 @@
 		EDA04C7928CB784000A534DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA04C7828CB784000A534DD /* ContentView.swift */; };
 		EDA04C7B28CB784400A534DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA04C7A28CB784400A534DD /* Assets.xcassets */; };
 		EDA04C7E28CB784400A534DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA04C7D28CB784400A534DD /* Preview Assets.xcassets */; };
+		EDA04C8528CB7A4300A534DD /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA04C8428CB7A4300A534DD /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EDA04C7328CB784000A534DD /* TrafficLigth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLigth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA04C7328CB784000A534DD /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA04C7628CB784000A534DD /* TrafficLigthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLigthApp.swift; sourceTree = "<group>"; };
 		EDA04C7828CB784000A534DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDA04C7A28CB784400A534DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA04C7D28CB784400A534DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA04C8428CB7A4300A534DD /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		EDA04C6A28CB784000A534DD = {
 			isa = PBXGroup;
 			children = (
-				EDA04C7528CB784000A534DD /* TrafficLigth */,
+				EDA04C7528CB784000A534DD /* TrafficLight */,
 				EDA04C7428CB784000A534DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		EDA04C7428CB784000A534DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDA04C7328CB784000A534DD /* TrafficLigth.app */,
+				EDA04C7328CB784000A534DD /* TrafficLight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDA04C7528CB784000A534DD /* TrafficLigth */ = {
+		EDA04C7528CB784000A534DD /* TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
 				EDA04C7628CB784000A534DD /* TrafficLigthApp.swift */,
+				EDA04C8428CB7A4300A534DD /* ColorCircleView.swift */,
 				EDA04C7828CB784000A534DD /* ContentView.swift */,
 				EDA04C7A28CB784400A534DD /* Assets.xcassets */,
 				EDA04C7C28CB784400A534DD /* Preview Content */,
 			);
-			path = TrafficLigth;
+			path = TrafficLight;
 			sourceTree = "<group>";
 		};
 		EDA04C7C28CB784400A534DD /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDA04C7228CB784000A534DD /* TrafficLigth */ = {
+		EDA04C7228CB784000A534DD /* TrafficLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDA04C8128CB784400A534DD /* Build configuration list for PBXNativeTarget "TrafficLigth" */;
+			buildConfigurationList = EDA04C8128CB784400A534DD /* Build configuration list for PBXNativeTarget "TrafficLight" */;
 			buildPhases = (
 				EDA04C6F28CB784000A534DD /* Sources */,
 				EDA04C7028CB784000A534DD /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TrafficLigth;
+			name = TrafficLight;
 			productName = TrafficLigth;
-			productReference = EDA04C7328CB784000A534DD /* TrafficLigth.app */;
+			productReference = EDA04C7328CB784000A534DD /* TrafficLight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDA04C6E28CB784000A534DD /* Build configuration list for PBXProject "TrafficLigth" */;
+			buildConfigurationList = EDA04C6E28CB784000A534DD /* Build configuration list for PBXProject "TrafficLight" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDA04C7228CB784000A534DD /* TrafficLigth */,
+				EDA04C7228CB784000A534DD /* TrafficLight */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +142,7 @@
 			files = (
 				EDA04C7928CB784000A534DD /* ContentView.swift in Sources */,
 				EDA04C7728CB784000A534DD /* TrafficLigthApp.swift in Sources */,
+				EDA04C8528CB7A4300A534DD /* ColorCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrafficLigth/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrafficLight/Preview Content\"";
 				DEVELOPMENT_TEAM = N3Y2L7NT9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TrafficLigth/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrafficLight/Preview Content\"";
 				DEVELOPMENT_TEAM = N3Y2L7NT9R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,14 +317,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDA04C6E28CB784000A534DD /* Build configuration list for PBXProject "TrafficLigth" */ = {
+		EDA04C6E28CB784000A534DD /* Build configuration list for PBXProject "TrafficLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDA04C7F28CB784400A534DD /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDA04C8128CB784400A534DD /* Build configuration list for PBXNativeTarget "TrafficLigth" */ = {
+		EDA04C8128CB784400A534DD /* Build configuration list for PBXNativeTarget "TrafficLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDA04C8228CB784400A534DD /* Debug */,
