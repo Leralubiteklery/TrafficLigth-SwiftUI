@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7892C628D3435C00194683 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7892C528D3435C00194683 /* StartButtonView.swift */; };
 		EDA04C7728CB784000A534DD /* TrafficLigthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA04C7628CB784000A534DD /* TrafficLigthApp.swift */; };
 		EDA04C7928CB784000A534DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA04C7828CB784000A534DD /* ContentView.swift */; };
 		EDA04C7B28CB784400A534DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA04C7A28CB784400A534DD /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7892C528D3435C00194683 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		EDA04C7328CB784000A534DD /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA04C7628CB784000A534DD /* TrafficLigthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLigthApp.swift; sourceTree = "<group>"; };
 		EDA04C7828CB784000A534DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				EDA04C7628CB784000A534DD /* TrafficLigthApp.swift */,
 				EDA04C8428CB7A4300A534DD /* ColorCircleView.swift */,
 				EDA04C7828CB784000A534DD /* ContentView.swift */,
+				ED7892C528D3435C00194683 /* StartButtonView.swift */,
 				EDA04C7A28CB784400A534DD /* Assets.xcassets */,
 				EDA04C7C28CB784400A534DD /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA04C7928CB784000A534DD /* ContentView.swift in Sources */,
+				ED7892C628D3435C00194683 /* StartButtonView.swift in Sources */,
 				EDA04C7728CB784000A534DD /* TrafficLigthApp.swift in Sources */,
 				EDA04C8528CB7A4300A534DD /* ColorCircleView.swift in Sources */,
 			);
