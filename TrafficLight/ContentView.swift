@@ -20,7 +20,7 @@ struct ContentView: View {
     @State private var greenLightState = 0.3
     
     @State private var currentLight = CurrentLight.red
-   
+    
     private func nextColor() {
         let lightIsOn = 1.0
         let lightIsOff = 0.3
@@ -66,8 +66,6 @@ extension ContentView {
         }
     }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
